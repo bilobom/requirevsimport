@@ -7,23 +7,21 @@
 ## Install
 
 ```bash
-npm install --save requirevsimport
+git clone https://github.com/bilobom/requirevsimport
+cd requirevsimport && yarn 
+
 ```
 
-## Usage
+## Run
 
-```jsx
-import React, { Component } from 'react'
+```bash
+yarn start
 
-import MyComponent from 'requirevsimport'
-import 'requirevsimport/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
 ```
+
+## Instruction
+
+in the terminal , you'll see the bundle size , edit [this file ](https://github.com/bilobom/requirevsimport/blob/main/src/index.js) to see the bundle diffrence between `require` and `import`
 
 ## License
 
